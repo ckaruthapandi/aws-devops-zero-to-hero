@@ -1,4 +1,4 @@
-version: 0.2
+     version: 0.2
 
 env:
   parameter-store:
@@ -24,8 +24,4 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
-artifacts:
-  files:
-    - '**/*'
-  base-directory: ../simple-python-app
 
